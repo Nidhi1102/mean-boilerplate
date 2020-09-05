@@ -6,12 +6,12 @@ const app = express();
 
 // Serve only the static files form the dist directory
 
-app.use(express.static(__dirname + '/../../angular/dist'));
+app.use(express.static(__dirname + '/../angular/dist'));
 //app.use(express.static('./angular/dist'));
 
 app.get('/*', function(req, res) {
     console.log('El valor de __dirname es ', __dirname);
-    res.sendFile(path.join(__dirname + '/../../angular/dist/index.html'));
+    res.sendFile(path.join(__dirname + '/../angular/dist/meanjs20/index.html'));
     //res.sendFile('index.html', { root: 'angular/dist/' });
     //res.sendFile('./angular/dist/index.html');
 

@@ -3,7 +3,8 @@
     "version": "0.0.0",
     "scripts": {
         "start": "node server/server.js",
-        "postinstall": "cd ./angular && ng build"
+        "postinstall": "cd ./angular && ng build",
+        "build": "cd ./angular && ng build"
     },
     "engines": {
         "node": "~10.16.3",
