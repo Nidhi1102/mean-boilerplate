@@ -1,0 +1,7 @@
+{
+    "name": "MEANjs20",
+    "description": "Update of MEANjs boilerplate in 2020",
+    "repository": "https://github.com/meanjs2020/mean",
+    "logo": "https://node-js-sample.herokuapp.com/node.png",
+    "keywords": ["mean", "node", "express", "angular", "static"]
+}
