@@ -26,6 +26,18 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Deploy to Heroku
+## Deploying to PAAS
+
+###  Deploying MEANJS To Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/meanjs20/mean)
+
+## Credits
+Based on the fantastic proyect [MEANjs](https://github.com/meanjs/mean)
+
+Which was inspired by the great work of [Madhusudhan Srinivasa](https://github.com/madhums/)
+
+The MEAN name was coined by [Valeri Karpov](http://blog.mongodb.org/post/49262866911/the-mean-stack-mongodb-expressjs-angularjs-and).
+
+## License
+[The MIT License](LICENSE.md)
