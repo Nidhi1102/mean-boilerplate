@@ -5,8 +5,8 @@
     "author": "",
     "license": "MIT",
     "scripts": {
-        "start": "node server/server.js",
-        "start:dev": "nodemon server/server.js",
+        "start": "node backend/server.js",
+        "start:dev": "nodemon backend/server.js",
         "postinstall": "cd ./angular && ng build --prod",
         "build": "cd ./angular && ng build --prod"
     },
